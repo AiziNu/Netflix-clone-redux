@@ -1,0 +1,47 @@
+.singInPage {
+  max-width: 300px;
+  padding: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.85);
+}
+.singInPage > form {
+  display: grid;
+  flex-direction: column;
+}
+.singInPage > form > h1 {
+  text-align: left;
+  margin-bottom: 25px;
+}
+.singInPage > form > input {
+  outline-width: 0;
+  height: 4cqmin;
+  margin-bottom: 14px;
+  border-radius: 5px;
+  border: none;
+  padding: 5px 15px;
+}
+
+.singInPage > form > button {
+  font-size: 1rem;
+  padding: 16px 20px;
+  color: #fff;
+  background-color: #e50914;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.singInPage > form > h4 {
+  margin-top: 15px;
+  text-align: left;
+}
+.signInPage_grey {
+  color: grey;
+}
+.signInPage_link:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
